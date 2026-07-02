@@ -28,7 +28,7 @@ export default function App() {
       feat3Title: "Layanan Gratis",
       feat3Desc: "Dapat digunakan sepuasnya tanpa batas harian dan tanpa registrasi.",
       highlightTitle: "Fitur Unggulan",
-      highlightDesc: "Salah satu fitur unggulan NoMarkTik adalah kemampuannya menghapus watermark TikTok secara otomatis dari video yang diunduh. Dengan fitur ini, pengguna dapat memperoleh video yang lebih bersih tanpa adanya logo TikTok maupun nama pengguna yang biasanya muncul pada hasil unduhan dari aplikasi resmi. Tampilan video menjadi lebih rapi, sehingga lebih nyaman untuk disimpan sebagai arsip pribadi, dijadikan referensi, atau digunakan kembali sesuai dengan ketentuan hak cipta yang berlaku. Proses penghapusan watermark dilakukan secara cepat tanpa mengurangi kualitas visual video, sehingga pengguna tetap mendapatkan hasil unduhan yang optimal."
+      highlightDesc: "Salah satu fitur unggulan NoMarkTik adalah kemampuannya menghapus watermark TikTok secara otomatis dari video yang diunduh."
     },
     en: {
       title: "TikTok Downloader",
@@ -50,7 +50,7 @@ export default function App() {
       feat3Title: "Free Service",
       feat3Desc: "Unlimited daily downloads with no registration required.",
       highlightTitle: "Key Feature",
-      highlightDesc: "One of the key features of NoMarkTik is its ability to automatically remove TikTok watermarks from downloaded videos. With this feature, users can obtain a cleaner video without the TikTok logo or username that typically appears on official app downloads. The video display becomes neater, making it more comfortable to save for personal archives, references, or reuse in accordance with applicable copyright regulations. The watermark removal process is performed swiftly without reducing the video's visual quality, ensuring users always get optimal download results."
+      highlightDesc: "One of the key features of NoMarkTik is its ability to automatically remove TikTok watermarks from downloaded videos."
     }
   };
 
@@ -288,4 +288,4 @@ export default function App() {
       </footer>
     </div>
   );
-}
+} 
