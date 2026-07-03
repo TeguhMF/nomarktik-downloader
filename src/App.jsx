@@ -6,7 +6,8 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [videoData, setVideoData] = useState(null);
-
+  const [isOpen, setIsOpen] = useState(false);
+  
   const text = {
     id: {
       title: "TikTok Downloader",
@@ -286,6 +287,32 @@ export default function App() {
         <p className="mb-1.5">© 2026 TMF PRODUCTION. All rights reserved.</p>
         <p className="max-w-md mx-auto px-4 opacity-70 leading-normal">Disclaimer: We are not affiliated, authorized, or in any way officially connected with TikTok Inc.</p>
       </footer>
+
+      {/* POP-UP MODAL HASIL DOWNLOAD */}
+      {isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm">
+          <div className="relative w-full max-w-md transform overflow-hidden rounded-2xl bg-slate-950 p-6 text-center shadow-2xl border border-slate-800 transition-all">
+            <button 
+              onClick={() => setIsOpen(false)}
+              className="absolute top-4 right-4 text-slate-400 hover:text-white text-xl font-bold transition-colors"
+            >
+              ✕
+            </button>
+
+            <h3 className="text-lg font-semibold text-white mb-4">Video Siap Diunduh!</h3>
+
+            <div className="overflow-hidden rounded-xl bg-black mb-5 aspect-video flex items-center justify-center">
+              <video src={videoData?.video_nowatermark} controls className="w-full h-full object-contain" />
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <a href={videoData?.video_nowatermark} target="_blank" rel="noreferrer" className="w-full rounded-xl bg-teal-500 py-3 font-medium text-white hover:bg-teal-600 transition-colors inline-block">Download Tanpa Watermark</a>
+              <button onClick={() => setIsOpen(false)} className="w-full rounded-xl bg-slate-800 py-3 font-medium text-slate-300 hover:bg-slate-700 transition-colors">Tutup</button>
+            </div>
+          </div>
+        </div>
+      )}
+
     </div>
   );
-} 
+}
