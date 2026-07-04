@@ -1,16 +1,18 @@
 # React + Vite
+# NoMarkTik - TikTok Video Downloader
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NoMarkTik adalah aplikasi berbasis web yang digunakan untuk mengunduh video TikTok tanpa watermark. Aplikasi ini dirancang dengan antarmuka yang modern, responsif, dan berfokus pada kenyamanan pengguna. Dengan integrasi komponen modal, hasil pencarian video akan langsung ditampilkan dalam bentuk pop-up sehingga pengguna tidak perlu melakukan scrolling ke bawah halaman.
 
-Currently, two official plugins are available:
+## Fitur Utama
+* **Unduh Tanpa Watermark:** Mengambil file video TikTok dengan kualitas asli secara instan.
+* **Pop-up Modal Responsif:** Menampilkan preview dan tombol unduh tepat di tengah layar setelah proses pemrosesan selesai.
+* **Antarmuka Mode Gelap:** Desain visual yang bersih dan minimalis menggunakan optimasi Tailwind CSS v4.
+* **Performa Ringan:** Menggunakan Vite sebagai build tool untuk memastikan kecepatan pemuatan halaman yang optimal.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Teknologi yang Digunakan
+* **Frontend Library:** React
+* **Build Tool:** Vite
+* **Styling Framework:** Tailwind CSS v4
+* **Hosting Platform:** Cloudflare Pages
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   
