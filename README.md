@@ -1,4 +1,4 @@
-# React + Vite
+# React
 # NoMarkTik - TikTok Video Downloader
 
 NoMarkTik adalah aplikasi berbasis web yang digunakan untuk mengunduh video TikTok tanpa watermark. Aplikasi ini dirancang dengan antarmuka yang modern, responsif, dan berfokus pada kenyamanan pengguna. Dengan integrasi komponen modal, hasil pencarian video akan langsung ditampilkan dalam bentuk pop-up sehingga pengguna tidak perlu melakukan scrolling ke bawah halaman.
