@@ -11,7 +11,6 @@ NoMarkTik adalah aplikasi berbasis web yang digunakan untuk mengunduh video TikT
 
 ## Teknologi yang Digunakan
 * **Frontend Library:** React
-* **Build Tool:** Vite
 * **Styling Framework:** Tailwind CSS v4
 * **Hosting Platform:** Cloudflare Pages
 
